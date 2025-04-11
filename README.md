@@ -80,6 +80,27 @@ It’s designed for support teams looking to scale response time, reduce manual 
 
 ---
 
+## ⚙️ Backend Setup (Flask)
+
+1. Create a `.env` file:
+
+	OPENAI_API_KEY=your-key-here
+
+2. Install dependencies:
+
+```bash
+pip install flask flask-cors python-dotenv openai
+```
+
+3. Run the server:
+
+```bash
+python run.py
+```
+
+It will start on `http://localhost:5000`
+
+---
 
 ## 🌐 Frontend (React + Tailwind)
 
@@ -174,3 +195,8 @@ As someone transitioning from player support to a technical role, I wanted to co
 - My experience in customer support workflows
 - My interest in automation and AI
 - Real-world relevance to contact center and CRM platforms.
+
+---
+
+## 🙋‍♂️ Author
+Made with ❤️ by Carlo.
