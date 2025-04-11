@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Billing",
+    "priority": "High",
+    "suggested_reply": "Hi there,\n\nThank you for reaching out to us. I'm sorry to hear about the issue with your payment. Rest assured, we have noted your concern and are looking into it right away. We will do our best to resolve this for you as soon as possible. \n\nIf you have any other questions or need further assistance, feel free to let us know.\n\nBest regards,  \n[Your Name]  \nCustomer Support Team",
+    "ticket_id": 1001
+  },
+  {
+    "category": "Feature Request",
+    "priority": "Normal",
+    "suggested_reply": "Hello!\n\nThank you for reaching out with your feature request for a dark mode option in the app. Your suggestion has been noted and will be forwarded to our development team for consideration. We appreciate your feedback as we strive to improve our app for all users.\n\nIf you have any more ideas or feedback, feel free to share them with us. We're here to help!\n\nWarm regards,  \n[Your Name]  \nCustomer Support Team",
+    "ticket_id": 1002
+  },
+  {
+    "category": "Technical Support",
+    "priority": "Normal",
+    "suggested_reply": "Hi there! Thank you for reaching out to us. I'm sorry to hear that you're experiencing issues with the app crashing when you try to upload a file. Rest assured, we have noted your concern and our technical team is already looking into this issue. We appreciate your patience and understanding as we work to resolve this for you. If you have any other questions or need further assistance, feel free to let us know. Thank you!",
+    "ticket_id": 1003
+  }
+]
