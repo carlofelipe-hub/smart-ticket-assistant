@@ -39,4 +39,19 @@ It’s designed for support teams looking to scale response time, reduce manual 
 ---
 
 ## 📁 Project Structure
+smart-ticket-assistant/ ├── backend/ │ ├── main.py # API and logic │ ├── openai_utils.py # Functions calling GPT-4 │ └── ticket_parser.py # Handles ticket classification ├── mock_tickets/ │ └── sample_tickets.json # Sample input data ├── responses/ │ └── generated_responses.json # GPT output ├── frontend/ # Optional │ └── index.html ├── README.md └── requirements.txt
 
+yaml
+Copy
+Edit
+
+---
+
+## 🧪 Example Input
+
+```json
+{
+  "ticket_id": 1001,
+  "customer_name": "Jane D.",
+  "content": "My payment didn't go through but it charged my card. Please help asap."
+}
