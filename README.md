@@ -80,6 +80,84 @@ It’s designed for support teams looking to scale response time, reduce manual 
 
 ---
 
+
+## 🌐 Frontend (React + Tailwind)
+
+The frontend is a simple React interface that allows users to submit a support ticket and view AI-generated responses.
+
+### 🧰 Tech Used
+- React
+- Axios (for HTTP requests)
+- Tailwind CSS (for styling)
+- LocalStorage (to persist ticket history)
+
+---
+
+### 🚀 How to Run Frontend
+
+1. Navigate to the frontend directory:
+
+```bash
+cd frontend
+```
+
+2. Install dependencies:
+
+```bash
+  npm install
+```
+
+3. If using Tailwind for the first time, generate config:
+
+```bash
+ npx tailwindcss init -p
+```
+
+4. Make sure these files exist:
+
+- tailwind.config.js
+- postcss.config.js
+
+5. In tailwind.config.js, make sure content is set like this:
+
+```javascript
+content: ["./src/**/*.{js,jsx,ts,tsx}"]
+```
+
+6. Replace src/index.css with:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+7. Start the dev server:
+
+```bash
+npm start
+```
+
+
+### ✨ Features
+Submit ticket via form
+
+Backend API integration (/process_ticket)
+
+Displays AI-generated category, priority, and response
+
+Ticket history stored locally using localStorage
+
+Modern UI styled with Tailwind CSS
+
+---
+
+🖼 Sample Screenshot
+
+
+![image](https://github.com/user-attachments/assets/41fc4443-a3eb-4f30-95c6-24c93d7c85d3)
+
+
 ## 🧠 How It Works
 1. Load tickets via JSON file or frontend
 2. Backend uses OpenAI API to:
