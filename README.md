@@ -85,7 +85,7 @@ It’s designed for support teams looking to scale response time, reduce manual 
 1. Create a `.env` file:
 
 ```bash
-	OPENAI_API_KEY=your-key-here
+OPENAI_API_KEY=your-key-here
 ```
 
 2. Install dependencies:
