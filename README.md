@@ -40,12 +40,7 @@ It’s designed for support teams looking to scale response time, reduce manual 
 
 ## 📁 Project Structure
 smart-ticket-assistant/ 
-├── backend/ │ ├── main.py # Entry point for the backend server │ 
-├── openai_utils.py # Handles OpenAI API calls (classification + response) │ 
-├── ticket_classifier.py # Logic to determine category and priority of tickets │ 
-└── response_generator.py # Logic for generating AI-based ticket replies │ 
-├── mock_tickets/ │ └── sample_tickets.json # Example support tickets for testing │ 
-├── responses/ │ └── generated_responses.json # Stores AI-drafted responses for review │ 
-├── frontend/ # (Optional) Simple UI if you want to visualize results │ └── index.html │ 
-├── .env.example # Sample environment variables (like OpenAI API key) ├── requirements.txt # Python dependencies └── README.md # You're here
+
+|  Test |  Test      |
+
 
