@@ -22,7 +22,7 @@ It’s designed for support teams looking to scale response time, reduce manual 
 - 🔥 **Priority Detection**: Identifies urgency based on tone and keywords
 - ✍️ **AI-Generated Responses**: Drafts smart replies using GPT-4 with custom tone and rules
 - 👁️ **Admin Review Dashboard (WIP)**: View ticket, tags, and AI suggestion
-- 🧩 **CRM-Ready JSON Output**: Simulates pushing to a CRM like Five9 or Salesforce
+- 🧩 **CRM-Ready JSON Output**: Simulates pushing to a CRM platform.
 
 ---
 
