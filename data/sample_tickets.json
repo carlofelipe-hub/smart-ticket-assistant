@@ -1,0 +1,17 @@
+[
+  {
+    "ticket_id": 1001,
+    "customer_name": "Jane D.",
+    "content": "My payment didn’t go through but it still charged my card. Please help asap."
+  },
+  {
+    "ticket_id": 1002,
+    "customer_name": "Mark R.",
+    "content": "Is there any way to request a dark mode feature in the app?"
+  },
+  {
+    "ticket_id": 1003,
+    "customer_name": "Ava L.",
+    "content": "The app crashes every time I try to upload a file."
+  }
+]
