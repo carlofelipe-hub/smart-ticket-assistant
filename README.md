@@ -12,7 +12,7 @@ This project simulates a smart customer support system that:
 
 It’s designed for support teams looking to scale response time, reduce manual sorting, and enhance quality using AI.
 
-> ⚙️ Built as a personal project to demonstrate automation and AI integration skills relevant to a Platform Configuration Engineer role.
+> ⚙️ Built as a personal project to demonstrate automation and AI integration skills.
 
 ---
 
