@@ -56,23 +56,31 @@ It’s designed for support teams looking to scale response time, reduce manual 
 - `README.md` – You're looking at it
 - `run.py` – App entry point
 
+---
+
 ## 🧪 Example Input
-{
-  "ticket_id": 1001,
-  "customer_name": "Jane D.",
-  "content": "My payment didn’t go through but it still charged my card. Please help asap."
-}
+    {
+      "ticket_id": 1001,
+      "customer_name": "Jane D.",
+      "content": "My payment didn’t go through but it still charged my card. Please help asap."
+    }
+
+
+
+---
 
 ## 💬 Output (AI Processed)
 
-{
-  "ticket_id": 1001,
-  "category": "Billing",
-  "priority": "High",
-  "suggested_reply": "Hi Jane, thanks for reaching out. We’re sorry to hear about the payment issue. I’ve escalated this to our billing team and will get back to you shortly."
-}
+    {
+      "ticket_id": 1001,
+      "category": "Billing",
+      "priority": "High",
+      "suggested_reply": "Hi Jane, thanks for reaching out. We’re sorry to hear about the payment issue. I’ve escalated this to our billing team and will get back to you shortly."
+    }
 
-##🧠 How It Works
+---
+
+## 🧠 How It Works
 1. Load tickets via JSON file or frontend
 2. Backend uses OpenAI API to:
 3. Classify category
@@ -80,8 +88,9 @@ It’s designed for support teams looking to scale response time, reduce manual 
 5. Generate a reply
 6. Results are saved and exported as JSON
 
+---
 
-##👨‍💼 Why I Built This
+## 👨‍💼 Why I Built This
 As someone transitioning from player support to a technical role, I wanted to combine:
 
 - My experience in customer support workflows
