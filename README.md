@@ -1,3 +1,5 @@
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/carlofelipe/)
+
 # 🧠 Smart Ticket Assistant
 
 AI-powered ticket triage and response tool built using OpenAI's API.
